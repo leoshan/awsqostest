@@ -1,0 +1,15 @@
+[global]
+rw=rwxxx
+rwmixread=rwmixreadxxx
+bs=bsxxx
+ioengine=libaio
+iodepth=iodepxxx
+direct=1
+time_based
+runtime=runtimexxx
+numjobs=numjobsxxx
+group_reporting
+thread
+
+[job1]
+filename=/dev/nvme1n1
