@@ -11,19 +11,19 @@ numjobs=$8
 case $sight in
  aws_single_lun)
         echo "aws_single_lun" $index
-	cp fio_aws_1lun.fio fio_work.fio
+	cp aws_single_lun.fio fio_work.fio
         ;;
  aws_multi_luns)
         echo "aws_multi_luns" $index
-	cp fio_aws_luns.fio fio_work.fio
+	cp aws_multi_luns.fio fio_work.fio
         ;;
  ali_single_lun)
         echo "ali_single_lun" $index
-	cp fio_aws_1lun.fio fio_work.fio
+	cp ali_single_lun.fio fio_work.fio
         ;;
  ali_multi_luns)
         echo "ali_multi_luns" $index
-	cp fio_aws_luns.fio fio_work.fio
+	cp ali_multi_luns.fio fio_work.fio
         ;;
  B_single_queue)
         echo "B_single_queue" $index
