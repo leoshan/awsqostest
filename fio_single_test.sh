@@ -34,7 +34,7 @@ case $sight in
 	cp fio_aws_4lun.fio fio_work.fio
         ;;
  *)
-        echo "Usage: $name [aws/ali/B_single_lun/multi_luns rwtype blocksize iodep runtime numjobs]"
+        echo "Usage: $name [aws/ali/B_single_lun/multi_luns rwtype blocksize runtime numjobs]"
         exit 1
         ;;
 esac
