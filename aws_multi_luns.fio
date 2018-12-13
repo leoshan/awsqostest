@@ -17,8 +17,8 @@ filename=/dev/nvme1n1
 [job2]
 filename=/dev/nvme2n1
 
-#[job3]
-#filename=/dev/nvme3n1
+[job3]
+filename=/dev/nvme3n1
 
-#[job4]
-#filename=/dev/nvme4n1
+[job4]
+filename=/dev/nvme4n1
